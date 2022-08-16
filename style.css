@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.container1 , .container2{
+    width: 500px;
+    height: 350px;
+    background-color: #080001;
+    border: 2px solid wheat;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F94F6D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cont1 >h1 , .Cont2> h1 {
+    font-family: 'Silkscreen';
+    color: #fff;
+    font-size: 48px;
+}
+.container1 >h1 , .container2 >h1{
+    font-family: 'Silkscreen';
+    font-weight: 1000;
+    font-size: 100px;
+
+}
+.buttonContainer1 , .buttonContainer2{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttonContainer1>button , .buttonContainer2 >button{
+    width: 75px;
+    height: 75px;
+    background-color: #1B244A;
+    color: #fff;
+    border: 2px solid white;
+    font-family: 'Silkscreen';
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttonContainer1>button:focus , .buttonContainer2 >button:focus{
+    outline: none;
+}
+.buttonContainer1>button:active , .buttonContainer2 >button:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.ResetDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Reset{
+    height: 50px;
+    width: 150px;
+    background-color: #1B244A;
+    color: #fff;
+    border: 2px solid white;
+    font-family: 'Silkscreen';
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
